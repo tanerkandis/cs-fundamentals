@@ -1,1 +1,0 @@
-select distinct t.city from station t where upper(left(city,1)) not in ('A','E','I','O','U');
